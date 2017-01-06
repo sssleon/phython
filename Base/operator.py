@@ -27,9 +27,9 @@ if ( a != b ):
 if ( a <> b ):
   print "a 不等于 b"
 if ( a < b ):
-  print "a 大 于 b"
+  print "a 小于 b"
 if ( a <= b ):
-  print ("a 小于等于 b")
+  print ("a 小 于等于 b")
 if( a >= b ):
   print "a 大于等于 b"
 #赋值运算符
@@ -61,7 +61,8 @@ if ( a in list ):
   print "a 在 list 中"
 if ( a not in list ):
   print "a 不在 list 中"
-#身份运算符
+#身份运算符（判断两个标识符是不是引用自一个对象）
+print(id(a),id(b))
 if ( a is not b ):
   print "1 - a 和 b 有相同的标识"
 
